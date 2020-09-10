@@ -1,2 +1,2 @@
 # ratatouilleproject
-Website em HTML e CSS
+Projeto website em HTML e CSS
