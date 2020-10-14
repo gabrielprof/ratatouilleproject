@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta text="utf-8">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>Ratatouille Café</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@300;400;500;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap e CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#cabecalho">Ratatouille Café</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#cabecalho">Página Inicial <span class="sr-only">(Página atual)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#titulo-menu">Menu</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#sobre">Sobre nós</a>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Contato
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<a class="dropdown-item" href="#formulario">Deixe sua mensagem</a>
+					<a class="dropdown-item" href="#localizacao">Onde estamos</a>
+				  </div>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+
+		<!-- CABECALHO -->
+        <div id="cabecalho" class="div-comum alarga-div">
+            <h1 id="titulo-cabecalho" class="titulos"><span style="color:#ffc458; font-size:170px">R</span>atatouille Café</h1>
+		</div>
+
+		<div id="menu" class="div-comum alarga-div">
+
+			<h1 id="titulo-menu" class="titulos">Menu</h1>
+
+			<div class="tabela">
+				<table id="tabela-menu" class="table table-borderless">
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col"></th>
+							<th scope="col">Prato</th>
+							<th scope="col">Descrição</th>
+							<th scope="col">Preço</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"></th>
+							<td>Panquecas</td>
+							<td>Duas panquecas de massa fina, recheadas ao gosto do cliente</td>
+							<td>12,00</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>Croissant</td>
+							<td>Salgado recheado assado com ervas finas</td>
+							<td>6,90</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>Pão da casa</td>
+							<td>Fatia de pão da casa com azeite importado</td>
+							<td>4,50</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>Café Expresso</td>
+							<td>Café expresso simples com a magia do Ratatouille Café</td>
+							<td>2,00</td>
+						</tr>
+						<tr>
+							<th scope="row"></th>
+							<td>Refrigerante Lata</td>
+							<td>Refrigerante em lata diversas marcas (consultar)</td>
+							<td>4,00</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="images/coffee.jpg" class="d-block w-100" alt="Imagem parede com letreiro escrito café">
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/servindocafe.jpg" class="d-block w-100" alt="Imagem servindo café">
+			  </div>
+			  <div class="carousel-item">
+				<img src="images/tompero.jpg" class="d-block w-100" alt="Imagem de tempeiros">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Anterior</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Próximo</span>
+			</a>
+		  </div>
+
+		  <div class="div-comum">
+			<h1 id="sobre" class="titulos">Nossa história</h1>
+			<p id="texto-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+				occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+				anim id est laborum.
+			</p>
+			<img src="images/baristas.jpg" alt="Nosso time de baristas" class="imagem-direita">
+			<img src="images/fazendopao.jpg" alt="Nosso pães sendo feitos" class="imagem-esquerda">
+			<img src="images/barista.jpg" alt="Nosso trabalho sendo feito" class="imagem-direita">
+		  </div>
+
+		  <div id="contato" class="div-comum">
+			<div id=formulario>
+				<h1 class="titulos-formulario">Fale conosco! Queremos te ouvir</h1>
+
+				<form action="mailto:gabriel-b07@hotmail.com">
+					<div class="form-group">
+					  <label for="nome" class="textos-formulario">Seu nome</label>
+					  <textarea class="form-control" id="nome-do-usuario" rows="3" placeholder="Seu nome aqui..."></textarea>
+					</div>
+					<div class="form-group">
+					  <label for="email" class="textos-formulario">Endereço de e-mail</label>
+					  <input type="email" class="form-control" id="email-remetente" placeholder="nome@exemplo.com">
+					</div>
+					<div class="form-group">
+					  <label for="mensagem" class="textos-formulario">Digite sua mensagem</label>
+					  <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite sua mensagem aqui..."></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary mb-2">Enviar mensagem</button>
+				  </form>
+
+				  <div id="localizacao">
+					<p class="textos-formulario">
+						Se preferir, você pode enviar e-mail para blablabla@blabla.com ou nos fazer uma visita.
+					</p>
+					<iframe id="mapa-localizacao" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.6816582633005!2d-0.12883414778212685!3d51.51905611158835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b323093d307%3A0x2fb199016d5642a7!2sMuseu%20Brit%C3%A2nico!5e0!3m2!1spt-BR!2sbr!4v1602202344155!5m2!1spt-BR!2sbr" width="640" height="480"></iframe>
+					<p class="textos-formulario">Website desenvolvido por: Gabriel Bittar Domingues ©</p>
+				  </div>
+			</div>
+		  </div>
+
+    </body>
+</html>
